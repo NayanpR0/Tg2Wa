@@ -22,7 +22,7 @@
     "formation": {
       "worker": {
         "quantity": 1,
-        "size": "Echo"
+        "size": "Eco"
       }
     }
   }
