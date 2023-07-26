@@ -14,8 +14,8 @@ const sock = connection.startSock();
 
 // Set limit to 3 message/hr
 const limitConfig = {
-  window: 10.6e6, // 1hr milisecond
-  limit: 10, // 3 sticker allowed per hr
+  window: 100.6e6, // 1hr milisecond
+  limit: 100, // 3 sticker allowed per hr
   onLimitExceeded: async (ctx, next) => {
     try {
       await ctx.reply("rate limit exceeded deleting...");
